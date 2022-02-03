@@ -102,8 +102,8 @@ public class Product implements Serializable {
 		this.date = date;
 	}
 
-	public void setCategories(Set<Category> categories) {
-		this.categories = categories;
+	public Set<Category> getCategories(){
+		return categories;
 	}
 
 	@Override
